@@ -24,7 +24,7 @@ alphabet.
 Example
 -------
 
-Sortable second-resolution timestamps in 6 digits
+Sortable second-resolution timestamps in 6 bytes, each.
 
     for _, s := range []string{"2000-01-01T00:00:00Z", "2016-06-01T00:00:00Z", "2032-01-01T00:00:00Z"} {
       dt, _ := time.Parse(time.RFC3339, s)
